@@ -27,16 +27,25 @@ const Header = () => {
           >
             <span>
               {showNav ? (
-                <FontAwesomeIcon icon={faBars} color="#000000" size="2x" />
-              ) : (
                 <FontAwesomeIcon icon={faTimes} color="#000000" size="2x" />
+              ) : (
+                <FontAwesomeIcon icon={faBars} color="#000000" size="2x" />
               )}
             </span>
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+            style={{
+              border: "none",
+              zIndex: "10000",
+              backgroundColor: "#ffffff",
+              boxShadow: "none",
+              outline: "none",
+            }}
+          >
             <Nav className="ms-auto">
               <Nav.Link className="header-nav__menu-text" href="#">
-                Usługi
+                O firme
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
                 Szkolenie
@@ -46,6 +55,9 @@ const Header = () => {
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
                 Wynajem
+              </Nav.Link>
+              <Nav.Link className="header-nav__menu-text" href="#">
+                Kontakt
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
