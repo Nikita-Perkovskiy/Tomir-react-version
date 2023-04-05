@@ -1,0 +1,65 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+@mixin baize-titele {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 61px;
+  color: $base-black;
+  text-transform: uppercase;
+}
+
+@mixin baize-titele-fon-text {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  color: $base-white;
+  text-align: center;
+}
+
+@mixin baize-text-content {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $base-black;
+}
+
+@mixin baize-button-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: $base-white;
+}
+
+@mixin baize-text-slider {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $base-white;
+}
+
+.b {
+  @include baize-titele;
+}
+
+.p {
+  @include baize-text-content;
+}
+
+.a {
+  background-color: black;
+  @include baize-button-text;
+}
+
+.u {
+  background-color: black;
+  @include baize-text-slider;
+}
+
+.j {
+  background-color: orangered;
+  @include baize-titele-fon-text;
+}

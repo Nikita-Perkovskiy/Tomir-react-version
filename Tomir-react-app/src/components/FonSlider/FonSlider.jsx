@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Image } from "react-bootstrap";
 import FonPicture1 from "./images/closeUpWarehoueView.jpg";
 import FonPicture2 from "./images/lotOldInstrumentsToOldBox.jpg";

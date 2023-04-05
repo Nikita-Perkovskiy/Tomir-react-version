@@ -1,12 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "./index.scss";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Button = ({ text, path }) => {
   return (
     <>
-      <div class="main-button__wrapper">
+      <div className="main-button__wrapper">
         <Link className="main-button" to={path}>
           {text}
         </Link>

@@ -4,6 +4,7 @@
 .main-button {
   @include main-button;
   @include main-button-text;
+  text-decoration: none;
 }
 
 .main-button__wrapper {
