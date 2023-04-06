@@ -1,0 +1,20 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.link {
+  @include main-button-text;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blackLinkColor {
+  color: $base-black;
+}
+
+.whiteLinkColor {
+  color: $base-white;
+}
+
+.link:hover {
+  color: $base-gold;
+}

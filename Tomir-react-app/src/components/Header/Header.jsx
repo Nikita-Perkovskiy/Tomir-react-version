@@ -4,9 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./index.scss";
+import LinkElement from "../LinkElement/LinkElement";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
+
   return (
     <>
       <Navbar expand="md">
@@ -17,6 +19,7 @@ const Header = () => {
             </h1>
           </Navbar.Brand>
           <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
             style={{
               border: "none",
               backgroundColor: "transparent",
@@ -45,19 +48,32 @@ const Header = () => {
           >
             <Nav className="ms-auto">
               <Nav.Link className="header-nav__menu-text" href="#">
-                O firme
+                <LinkElement
+                  LinkColor={"blackLinkColor"}
+                  LinkPath={"./"}
+                  LinkText={"O firme"}
+                />
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
-                Szkolenie
+                <LinkElement
+                  LinkColor={"blackLinkColor"}
+                  LinkPath={"./"}
+                  LinkText={"Szkolenie i Serwis"}
+                />
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
-                Serwis
+                <LinkElement
+                  LinkColor={"blackLinkColor"}
+                  LinkPath={"./"}
+                  LinkText={"Wynajem"}
+                />
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
-                Wynajem
-              </Nav.Link>
-              <Nav.Link className="header-nav__menu-text" href="#">
-                Kontakt
+                <LinkElement
+                  LinkColor={"blackLinkColor"}
+                  LinkPath={"./"}
+                  LinkText={"Kontakt"}
+                />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
