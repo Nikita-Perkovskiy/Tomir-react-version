@@ -9,11 +9,65 @@
 
 .footer-text {
   @include baize-button-text;
+  text-align: left;
   font-weight: 400;
   text-decoration: none;
   cursor: pointer;
 }
 
-a:hover {
+.footer-text:hover {
   color: $base-gold;
+}
+
+.footer-content-wrapper {
+  position: relative;
+}
+
+.footer-layout-wrapper {
+  text-align: center;
+}
+
+.footer-svg-block {
+  display: flex;
+  justify-content: flex-start;
+  div {
+    margin: 2px;
+  }
+}
+
+.footer-copyright__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-copyright__logo {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+  color: $base-white;
+
+  span {
+    color: $base-gold;
+  }
+}
+
+.footer-copyright__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: $base-gold;
+}
+
+@media (max-width: 1200px) {
+  .footer-text {
+    text-align: center;
+  }
+
+  .footer-svg-block {
+    justify-content: center;
+  }
 }
