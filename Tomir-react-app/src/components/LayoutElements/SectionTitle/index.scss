@@ -1,12 +1,7 @@
 @import "/src/styles/vars.scss";
 @import "/src/styles/mixin.scss";
 
-.sectionTitle-left {
+.sectionTitle {
   @include baize-title;
-  text-align: left;
-}
-
-.sectionTitle-right {
-  @include baize-title;
-  text-align: right;
+  text-align: center;
 }

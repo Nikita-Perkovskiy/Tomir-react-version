@@ -9,7 +9,10 @@ const MainPage = () => {
     <>
       <Header />
       <FonSlider />
-      <SectionTitle sectionTitleStyle={"sectionTitle-left"} />
+      <SectionTitle
+        sectionTitlePosition={"right"}
+        sectionTitleContent={"Wynajem"}
+      />
       <Footer />
     </>
   );
