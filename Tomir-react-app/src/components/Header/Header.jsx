@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./index.scss";
-import LinkElement from "../LinkElement/LinkElement";
+import LinkElement from "../LayoutElements/LinkElement/LinkElement";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);

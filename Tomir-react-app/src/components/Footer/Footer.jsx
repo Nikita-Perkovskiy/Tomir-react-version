@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./index.scss";
-import LinkElement from "../LinkElement/LinkElement";
+import LinkElement from "../LayoutElements/LinkElement/LinkElement";
 import PolandSvgFlag from "./svges/PolandSvgFlag/PolandSvgFlag";
 import UkraineSvgFlag from "./svges/UkraineSvgFlag/UkraineSvgFlag";
 import USASvgFlag from "./svges/USASvgFlag/USASvgFlag";

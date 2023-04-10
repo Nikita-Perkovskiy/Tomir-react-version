@@ -1,16 +1,15 @@
 import React from "react";
-//import Button from "../../components/Button/Button";
 import FonSlider from "../../components/FonSlider/FonSlider";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-//import { Route, Routes } from "react-router-dom";
+import SectionTitle from "../../components/LayoutElements/SectionTitle/SectionTitle";
 
 const MainPage = () => {
   return (
     <>
       <Header />
       <FonSlider />
-      {/* <Button text="hkbhk" path="/" /> */}
+      <SectionTitle sectionTitleStyle={"sectionTitle-left"} />
       <Footer />
     </>
   );
