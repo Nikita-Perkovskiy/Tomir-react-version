@@ -2,7 +2,7 @@
 @import "/src/styles/mixin.scss";
 
 .link {
-  @include main-button-text;
+  @include baize-button-text;
   text-decoration: none;
   cursor: pointer;
 }

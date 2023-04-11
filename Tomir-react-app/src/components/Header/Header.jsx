@@ -58,7 +58,7 @@ const Header = () => {
                 <LinkElement
                   LinkColor={"blackLinkColor"}
                   LinkPath={"./"}
-                  LinkText={"Szkolenie i Serwis"}
+                  LinkText={"Uslugi"}
                 />
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">

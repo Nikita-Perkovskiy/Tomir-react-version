@@ -24,7 +24,7 @@ const Footer = () => {
                   <LinkElement
                     LinkColor={"whiteLinkColor"}
                     LinkPath={"./"}
-                    LinkText={"Szkolenie i Serwis"}
+                    LinkText={"Uslugi"}
                   />
                 </Col>
               </Row>
