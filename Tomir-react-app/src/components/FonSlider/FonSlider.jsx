@@ -28,6 +28,8 @@ const FonSlider = () => {
           <Image
             src={activeFonPicture}
             style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            alt="animation slider fon"
+            fluid
           />
           <div className="header-slogo__content-wrap">
             <h3>

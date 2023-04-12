@@ -1,9 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
-import SectionTitle from "../../components/LayoutElements/SectionTitle/SectionTitle";
-import ButtonComponent from "../../components/LayoutElements/ButtonComponent/ButtonComponent";
+import SectionTitle from "../LayoutElements/SectionTitle/SectionTitle";
+import ButtonComponent from "../LayoutElements/ButtonComponent/ButtonComponent";
 import "./index.scss";
 
-const BaseInformation = () => {
+const BaizeInformation = () => {
   return (
     <>
       <section>
@@ -14,7 +14,7 @@ const BaseInformation = () => {
           />
           <Row>
             <Col className="baize-information__col" sm={6}>
-              <Row className="pt-5 pb-5">
+              <Row className="baize-information__container">
                 <Container>
                   <h4 className="baize-information__title baize-information__right">
                     OD 2017
@@ -24,8 +24,8 @@ const BaseInformation = () => {
                   </p>
                 </Container>
               </Row>
-              <Row className="pt-5 mpb-5"></Row>
-              <Row className="pt-5 pb-5">
+              <Row className="baize-information__container"></Row>
+              <Row className="baize-information__container">
                 <Container>
                   <h4 className="baize-information__title baize-information__right">
                     PONAD 200
@@ -35,11 +35,11 @@ const BaseInformation = () => {
                   </p>
                 </Container>
               </Row>
-              <Row className="pt-5 pb-5"></Row>
+              <Row className="baize-information__container"></Row>
             </Col>
             <Col sm={6}>
-              <Row className="pt-5 pb-5"></Row>
-              <Row className="pt-5 pb-5">
+              <Row className="baize-information__container"></Row>
+              <Row className="baize-information__container">
                 <Container>
                   <h4 className="baize-information__title baize-information__left">
                     1500
@@ -50,8 +50,8 @@ const BaseInformation = () => {
                   </p>
                 </Container>
               </Row>
-              <Row className="pt-5 pb-5"></Row>
-              <Row className="pt-5 pb-5">
+              <Row className="baize-information__container"></Row>
+              <Row className="baize-information__container">
                 <Container>
                   <h4 className="baize-information__title baize-information__left">
                     1300
@@ -60,7 +60,7 @@ const BaseInformation = () => {
               </Row>
             </Col>
           </Row>
-          <Container className="mt-4">
+          <Container className="baize-information__container">
             <ButtonComponent
               buttonPath={"./"}
               buttonText={" Zapytaj o szczegóły"}
@@ -72,4 +72,4 @@ const BaseInformation = () => {
   );
 };
 
-export default BaseInformation;
+export default BaizeInformation;
