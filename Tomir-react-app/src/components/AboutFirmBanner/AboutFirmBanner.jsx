@@ -4,15 +4,20 @@ import aboutFirmel1 from "./images/about-firm-element-1.png";
 import aboutFirmel2 from "./images/about-firm-element-2.png";
 import aboutFirmel3 from "./images/about-firm-element-3.png";
 import "./index.scss";
+import SectionTitle from "../LayoutElements/SectionTitle/SectionTitle";
 
 const AboutFirmBanner = () => {
   return (
     <>
       <section>
+        <SectionTitle
+          sectionTitleContent={"O FIRMIE"}
+          sectionTitlePosition={"right"}
+        />
         <div className="aboutFirm__wrapper">
           <Image
             src={aboutFirmFon}
-            style={{ height: "448px", width: "100%", objectFit: "cover" }}
+            style={{ height: "450px", width: "100%", objectFit: "cover" }}
             alt="about firm fon picture"
             fluid
           />

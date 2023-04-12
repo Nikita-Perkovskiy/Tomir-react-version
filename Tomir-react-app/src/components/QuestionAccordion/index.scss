@@ -1,0 +1,16 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.questionBlock__accordion .accordion-button:not(.collapsed) {
+  background-color: $base-white;
+  color: $base-black;
+  border-color: $base-white;
+}
+
+.questionBlock__accordion .accordion-button:not(.collapsed)::before {
+  content: "";
+}
+
+.questionBlock__accordion .accordion-button:not(.collapsed)::after {
+  content: "";
+}
