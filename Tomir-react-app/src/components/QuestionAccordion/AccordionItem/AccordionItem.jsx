@@ -10,7 +10,7 @@ const AccordionItem = ({
 }) => {
   return (
     <>
-      <Accordion.Item eventKey={`${accordionEventKey}`}>
+      <Accordion.Item className="pt-3 pb-3" eventKey={`${accordionEventKey}`}>
         <Container>
           <Accordion.Header className="m-3">
             <p className="questionBlock__numeration">

@@ -5,15 +5,26 @@ import Footer from "../../components/Footer/Footer";
 import BaizeInformation from "../../components/BaizeInformation/BaizeInformation";
 import AboutFirmBanner from "../../components/AboutFirmBanner/AboutFirmBanner";
 import QuestionAccordion from "../../components/QuestionAccordion/QuestionAccordion";
+import "./index.scss";
 
 const MainPage = () => {
   return (
     <>
-      <Header />
-      <FonSlider />
-      <BaizeInformation />
-      <AboutFirmBanner />
-      <QuestionAccordion />
+      <body>
+        <Header />
+        <section>
+          <FonSlider />
+        </section>
+        <section className="section__wrapper">
+          <BaizeInformation />
+        </section>
+        <section className="section__wrapper">
+          <AboutFirmBanner />
+        </section>
+        <section className="section__wrapper">
+          <QuestionAccordion />
+        </section>
+      </body>
       <Footer />
     </>
   );

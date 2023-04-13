@@ -3,6 +3,7 @@
 
 .questionBlock__title {
   @include baize-text-content;
+  max-width: 800px;
   font-size: 30px;
   line-height: 37px;
   text-align: left;

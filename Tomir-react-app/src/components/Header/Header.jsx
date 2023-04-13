@@ -50,28 +50,28 @@ const Header = () => {
               <Nav.Link className="header-nav__menu-text" href="#">
                 <LinkElement
                   LinkColor={"blackLinkColor"}
-                  LinkPath={"./"}
+                  LinkPath={"/"}
                   LinkText={"O firme"}
                 />
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
                 <LinkElement
                   LinkColor={"blackLinkColor"}
-                  LinkPath={"./"}
+                  LinkPath={"/services"}
                   LinkText={"Uslugi"}
                 />
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
                 <LinkElement
                   LinkColor={"blackLinkColor"}
-                  LinkPath={"./"}
-                  LinkText={"Wynajem"}
+                  LinkPath={"/katalog"}
+                  LinkText={"Katalog"}
                 />
               </Nav.Link>
               <Nav.Link className="header-nav__menu-text" href="#">
                 <LinkElement
                   LinkColor={"blackLinkColor"}
-                  LinkPath={"./"}
+                  LinkPath={"/contact"}
                   LinkText={"Kontakt"}
                 />
               </Nav.Link>

@@ -16,14 +16,14 @@ const Footer = () => {
                 <Col className="text-center m-3">
                   <LinkElement
                     LinkColor={"whiteLinkColor"}
-                    LinkPath={"./"}
+                    LinkPath={"/"}
                     LinkText={"O firme"}
                   />
                 </Col>
                 <Col className="text-center m-3">
                   <LinkElement
                     LinkColor={"whiteLinkColor"}
-                    LinkPath={"./"}
+                    LinkPath={"/services"}
                     LinkText={"Uslugi"}
                   />
                 </Col>
@@ -32,14 +32,14 @@ const Footer = () => {
                 <Col className="text-center m-3">
                   <LinkElement
                     LinkColor={"whiteLinkColor"}
-                    LinkPath={"./"}
-                    LinkText={"Wynajem"}
+                    LinkPath={"/katalog"}
+                    LinkText={"Katalog"}
                   />
                 </Col>
                 <Col className="text-center m-3">
                   <LinkElement
                     LinkColor={"whiteLinkColor"}
-                    toLink={"./"}
+                    toLink={"/contact"}
                     LinkText={"Kontakt"}
                   />
                 </Col>
