@@ -1,6 +1,6 @@
-import { text } from "@fortawesome/fontawesome-svg-core";
 import "./index.scss";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const LinkElement = ({ LinkText, LinkPath, LinkColor }) => {
   return (
@@ -10,6 +10,12 @@ const LinkElement = ({ LinkText, LinkPath, LinkColor }) => {
       </Link>
     </>
   );
+};
+
+LinkElement.propTypes = {
+  LinkText: PropTypes.string.isRequired,
+  LinkPath: PropTypes.string.isRequired,
+  LinkColor: PropTypes.string.isRequired,
 };
 
 export default LinkElement;

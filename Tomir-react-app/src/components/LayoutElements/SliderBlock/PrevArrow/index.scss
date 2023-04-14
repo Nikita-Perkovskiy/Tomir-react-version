@@ -1,0 +1,23 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.prevArrow-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 70px;
+  width: 70px;
+  background-color: $base-gold;
+  border-radius: 50%;
+  z-index: 2000;
+  cursor: pointer;
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+}

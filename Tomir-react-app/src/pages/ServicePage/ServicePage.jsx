@@ -1,11 +1,12 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import SliderBlock from "../../components/LayoutElements/SliderBlock/SliderBlock";
 
 const ServicePage = () => {
   return (
     <>
       <Header />
-      <div style={{ color: "blue", height: "100%", width: "100%" }}></div>
+      <SliderBlock />
       <Footer />
     </>
   );
