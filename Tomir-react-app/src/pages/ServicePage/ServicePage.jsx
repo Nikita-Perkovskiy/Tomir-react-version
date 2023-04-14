@@ -1,12 +1,14 @@
+import DetailsBlock from "../../components/DetailsBlock/DetailsBlock";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import SliderBlock from "../../components/LayoutElements/SliderBlock/SliderBlock";
+import SliderArendationBlock from "../../components/SliderArendationBlock/SliderArendationBlock";
 
 const ServicePage = () => {
   return (
     <>
       <Header />
-      <SliderBlock />
+      <SliderArendationBlock />
+      <DetailsBlock />
       <Footer />
     </>
   );

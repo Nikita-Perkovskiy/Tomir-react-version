@@ -1,0 +1,17 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.textList__circule {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: $base-gold;
+}
+
+.textList__text {
+  @include baize-text-content;
+  text-align: left;
+  span {
+    font-weight: 600;
+  }
+}
