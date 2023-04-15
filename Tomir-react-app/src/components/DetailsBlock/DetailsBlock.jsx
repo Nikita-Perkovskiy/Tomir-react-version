@@ -4,8 +4,23 @@ import "./index.scss";
 import SVG_JCB from "./SVGes/SVG_JCB/SVG-JCB";
 import SVG_Haulotte from "./SVGes/SVG_Haulotte/SVG_Haulotte";
 import SVG_Genie from "./SVGes/SVG_Genie/SVG_Genie";
+import SVG_DEUTZ from "./SVGes/SVG_DEUTZ/SVG_DEUTZ";
+import SVG_Linde from "./SVGes/SVG_Linde/SVG_Linde";
+import SVG_JLG from "./SVGes/SVG_JLG/SVG_JLG";
+import SVG_Toyota from "./SVGes/SVG_Toyota/SVG_Toyota";
+import SVG_Manitou from "./SVGes/SVG_Manitou/SVG_Manitou";
 
 const DetailsBlock = () => {
+  const SVGitems = [
+    <SVG_JCB />,
+    <SVG_Haulotte />,
+    <SVG_Genie />,
+    <SVG_DEUTZ />,
+    <SVG_Linde />,
+    <SVG_JLG />,
+    <SVG_Toyota />,
+    <SVG_Manitou />,
+  ];
   return (
     <>
       <Container>
@@ -39,9 +54,15 @@ const DetailsBlock = () => {
             </Col>
           </Row>
         </Container>
-        <SVG_JCB />
-        <SVG_Haulotte />
-        <SVG_Genie />
+        <Container className="mt-5 mb-5">
+          <Row className="justify-content-center">
+            {SVGitems.map((item, index) => (
+              <Col key={index} className="mb-4">
+                {item}
+              </Col>
+            ))}
+          </Row>
+        </Container>
       </Container>
     </>
   );
