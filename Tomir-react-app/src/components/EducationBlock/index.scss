@@ -1,0 +1,66 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.educationBlock__wrapper {
+  position: relative;
+}
+
+.educationBlock__wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $base-black;
+  opacity: 0.4;
+}
+
+.educationBlock__content-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.educationBlock__content {
+  @include baize-text-content;
+  max-width: 600px;
+  font-weight: 600;
+  font-size: 30px;
+  color: $base-white;
+  z-index: 100;
+  text-align: center;
+}
+.educationBlock__title {
+  @include baize-text-content;
+  font-size: 30px;
+  font-weight: 600;
+  color: $base-gold;
+  text-align: left;
+}
+.educationBlock__circule {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: $base-gold;
+}
+
+.educationBlock__text {
+  @include baize-text-content;
+  text-align: left;
+  span {
+    font-weight: 600;
+  }
+}
+
+.educationBlock__footer-text {
+  @include baize-text-content;
+  text-align: center;
+  border: 2px solid $base-gold;
+  padding: 2% 5% 2% 5%;
+}

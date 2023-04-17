@@ -29,7 +29,7 @@ const DetailsBlock = () => {
           sectionTitlePosition={"right"}
         />
         <Container className="mt-3 mb-3">
-          <Row className="mt-3 mb-3">
+          <Row className="mt-4 mb-4">
             <Col xs={1} className="m-auto">
               <Container className="textList__circule"></Container>
             </Col>
@@ -42,7 +42,7 @@ const DetailsBlock = () => {
               </p>
             </Col>
           </Row>
-          <Row className="mt-3 mb-3">
+          <Row className="mt-4 mb-4">
             <Col xs={1} className="m-auto">
               <Container className="textList__circule"></Container>
             </Col>
@@ -61,6 +61,30 @@ const DetailsBlock = () => {
                 {item}
               </Col>
             ))}
+          </Row>
+        </Container>
+        <Container className="mt-5 mb-4">
+          <Row className="mt-4 mb-4">
+            <p className="textList__text-content">
+              Jesteśmy uczestnikiem Programu
+            </p>
+          </Row>
+          <Row>
+            <p className="textList__text-title1">RZETELNA</p>
+          </Row>
+          <Row>
+            <p className="textList__text-title2">Firma</p>
+          </Row>
+          <Row className="mt-5 pt-3">
+            <div className="main-button__wrapper">
+              <a
+                class="main-button"
+                href="https://wizytowka.rzetelnafirma.pl/CTN7A0YD"
+                target="_blank"
+              >
+                Sprawdź naszą rzetelność
+              </a>
+            </div>
           </Row>
         </Container>
       </Container>
