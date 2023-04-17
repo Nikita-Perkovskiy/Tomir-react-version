@@ -69,7 +69,7 @@ const EducationBlock = () => {
             Szkolenia są organizowane po wcześniejszym ustaleniu terminu i grupy
             uczestników. Przy grupach zorganizowanych możemy zaproponować
             korzystne rabaty. Szkolenie możemy przeprowadzić na terenie całego
-            kraju, po wcześniejszym ustaleniu.{" "}
+            kraju, po wcześniejszym ustaleniu.
           </p>
         </Row>
       </Container>

@@ -15,13 +15,13 @@ const MainPage = () => {
         <section>
           <FonSlider />
         </section>
-        <section className="section__wrapper">
+        <section className="mainPage-section__wrapper">
           <BaizeInformation />
         </section>
-        <section className="section__wrapper">
+        <section className="mainPage-section__wrapper">
           <AboutFirmBanner />
         </section>
-        <section className="section__wrapper">
+        <section className="mainPage-section__wrapper">
           <QuestionAccordion />
         </section>
       </body>
