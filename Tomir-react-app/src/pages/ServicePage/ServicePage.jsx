@@ -17,10 +17,10 @@ const ServicePage = () => {
         <DetailsBlock />
       </section>
       <section className="servicePage-section__wrapper">
-        <EducationBlock />
+        <ServiceBlock />
       </section>
       <section className="servicePage-section__wrapper">
-        <ServiceBlock />
+        <EducationBlock />
       </section>
       <Footer />
     </>

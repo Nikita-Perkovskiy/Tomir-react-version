@@ -58,7 +58,7 @@ const Footer = () => {
                       className="footer-content-wrapper footer-text"
                       href="tel:+48 535 818 858"
                     >
-                      Tel.: 535 818 858
+                      tel.: 535 818 858
                     </a>
                   </Row>
                   <Row className="mt-2">

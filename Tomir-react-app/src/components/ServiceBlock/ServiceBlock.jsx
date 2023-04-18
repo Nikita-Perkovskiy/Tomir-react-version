@@ -19,7 +19,7 @@ const ServiceBlock = () => {
       />
       <Container>
         <Row className="mt-4 mb-4">
-          <Col xs={3}>
+          <Col className="col-12 col-md-3 col-lg-2">
             <Container className="d-flex align-items-center justify-content-start">
               <Image
                 className="serviceBlock__img"
@@ -28,10 +28,7 @@ const ServiceBlock = () => {
               />
             </Container>
           </Col>
-          <Col
-            xs={9}
-            className="d-flex align-items-center justify-content-start"
-          >
+          <Col className="d-flex align-items-center justify-content-start col-12 col-md-9 col-lg-10">
             <p className="serviceBlock__text serviceBlock__text-left">
               Pogwarancyjne przeglądy konserwacyjne podestów ruchomych i
               ładowarek teleskopowych
@@ -39,12 +36,12 @@ const ServiceBlock = () => {
           </Col>
         </Row>
         <Row className="mt-4 mb-4">
-          <Col xs={9} className="d-flex align-items-center justify-content-end">
+          <Col className="d-flex align-items-center justify-content-end col-12 col-md-9 col-lg-10">
             <p className="serviceBlock__text serviceBlock__text-right">
               Serwis mobilny na terenie całego kraju
             </p>
           </Col>
-          <Col xs={3} className="m-auto">
+          <Col className="col-12 col-md-3 col-lg-2">
             <Container className="d-flex align-items-center justify-content-end">
               <Image
                 className="serviceBlock__img"
@@ -55,7 +52,7 @@ const ServiceBlock = () => {
           </Col>
         </Row>
         <Row className="mt-4 mb-4">
-          <Col xs={3} className="m-auto">
+          <Col className="col-12 col-md-3 col-lg-2">
             <Container className="d-flex align-items-center justify-content-start">
               <Image
                 className="serviceBlock__img"
@@ -64,10 +61,7 @@ const ServiceBlock = () => {
               />
             </Container>
           </Col>
-          <Col
-            xs={9}
-            className="d-flex align-items-center justify-content-start"
-          >
+          <Col className="d-flex align-items-center justify-content-start col-12 col-md-9 col-lg-10">
             <p className="serviceBlock__text serviceBlock__text-left">
               Diagnostyka i naprawa podnośników, ładowarek teleskopowych i
               wózków widłowych
@@ -75,14 +69,14 @@ const ServiceBlock = () => {
           </Col>
         </Row>
         <Row className="mt-4 mb-4">
-          <Col xs={9} className="d-flex align-items-center justify-content-end">
+          <Col className="d-flex align-items-center justify-content-end col-12 col-md-9 col-lg-10">
             <p className="serviceBlock__text serviceBlock__text-right">
               <p class="service-block__content-text">
                 Pomiary rezystancji elektrycznej
               </p>
             </p>
           </Col>
-          <Col xs={3} className="m-auto">
+          <Col className="col-12 col-md-3 col-lg-2">
             <Container className="d-flex align-items-center justify-content-end">
               <Image
                 className="serviceBlock__img"
@@ -93,7 +87,7 @@ const ServiceBlock = () => {
           </Col>
         </Row>
         <Row className="mt-4 mb-4">
-          <Col xs={3} className="m-auto">
+          <Col className="col-12 col-md-3 col-lg-2">
             <Container className="d-flex align-items-center justify-content-start">
               <Image
                 className="serviceBlock__img"
@@ -102,10 +96,7 @@ const ServiceBlock = () => {
               />
             </Container>
           </Col>
-          <Col
-            xs={9}
-            className="d-flex align-items-center justify-content-start"
-          >
+          <Col className="d-flex align-items-center justify-content-start col-12 col-md-9 col-lg-10">
             <p className="serviceBlock__text serviceBlock__text-left">
               Przygotowanie do badań UDT oraz uczestnictwo podczas badania UDT
             </p>
@@ -119,7 +110,7 @@ const ServiceBlock = () => {
               </p>
             </p>
           </Col>
-          <Col xs={3} className="m-auto">
+          <Col className="col-12 col-md-3 col-lg-2">
             <Container className="d-flex align-items-center justify-content-end">
               <Image
                 className="serviceBlock__img"
@@ -130,7 +121,7 @@ const ServiceBlock = () => {
           </Col>
         </Row>
         <Row className="mt-4 mb-4">
-          <Col xs={3} className="m-auto">
+          <Col className="col-12 col-md-3 col-lg-2">
             <Container className="d-flex align-items-center justify-content-start">
               <Image
                 className="serviceBlock__img"
@@ -139,10 +130,7 @@ const ServiceBlock = () => {
               />
             </Container>
           </Col>
-          <Col
-            xs={9}
-            className="d-flex align-items-center justify-content-start"
-          >
+          <Col className="d-flex align-items-center justify-content-start col-12 col-md-9 col-lg-10">
             <p className="serviceBlock__text serviceBlock__text-left">Resurs</p>
           </Col>
         </Row>
