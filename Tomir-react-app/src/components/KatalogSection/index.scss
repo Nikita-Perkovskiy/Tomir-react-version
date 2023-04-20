@@ -1,0 +1,8 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.katalogSection__button {
+  @include main-button;
+  @include main-button-text;
+  text-decoration: none;
+}
