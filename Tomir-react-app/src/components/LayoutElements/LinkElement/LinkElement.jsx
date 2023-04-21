@@ -4,11 +4,9 @@ import PropTypes from "prop-types";
 
 const LinkElement = ({ LinkText, LinkPath, LinkColor }) => {
   return (
-    <>
-      <Link className={`link ${LinkColor}`} to={LinkPath}>
-        {LinkText}
-      </Link>
-    </>
+    <Link className={`link ${LinkColor}`} to={LinkPath}>
+      {LinkText}
+    </Link>
   );
 };
 

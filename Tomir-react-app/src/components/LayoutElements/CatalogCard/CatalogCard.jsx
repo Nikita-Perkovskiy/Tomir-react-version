@@ -1,7 +1,7 @@
 import { Container, Card } from "react-bootstrap";
 import "./index.scss";
 
-const KatalogCard = () => {
+const CatalogCard = () => {
   return (
     <>
       <Card style={{ width: "18rem" }}>
@@ -27,4 +27,4 @@ const KatalogCard = () => {
   );
 };
 
-export default KatalogCard;
+export default CatalogCard;

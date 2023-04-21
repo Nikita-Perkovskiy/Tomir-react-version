@@ -9,7 +9,7 @@ const PolandSvgFlag = () => {
         viewBox="0 0 64 64"
         aria-hidden="true"
         role="img"
-        class="iconify iconify--emojione"
+        className="iconify iconify--emojione"
         preserveAspectRatio="xMidYMid meet"
       >
         <path

@@ -39,7 +39,7 @@ const Footer = () => {
                 <Col className="text-center m-3">
                   <LinkElement
                     LinkColor={"whiteLinkColor"}
-                    toLink={"/contact"}
+                    LinkPath={"/contact"}
                     LinkText={"Kontakt"}
                   />
                 </Col>

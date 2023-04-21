@@ -21,7 +21,7 @@ const SectionTitle = ({ sectionTitlePosition, sectionTitleContent }) => {
 };
 
 SectionTitle.propTypes = {
-  sectionTitleStyle: PropTypes.string.isRequired,
+  sectionTitlePosition: PropTypes.string.isRequired,
   sectionTitleContent: PropTypes.string.isRequired,
 };
 

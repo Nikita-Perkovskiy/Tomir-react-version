@@ -48,34 +48,34 @@ const Header = () => {
               }}
             >
               <Nav className="ms-auto">
-                <Nav.Link className="header-nav__menu-text" href="#">
+                <Nav className="header-nav__menu-text">
                   <LinkElement
                     LinkColor={"blackLinkColor"}
                     LinkPath={"/"}
                     LinkText={"O firme"}
                   />
-                </Nav.Link>
-                <Nav.Link className="header-nav__menu-text" href="#">
+                </Nav>
+                <Nav className="header-nav__menu-text">
                   <LinkElement
                     LinkColor={"blackLinkColor"}
                     LinkPath={"/services"}
                     LinkText={"Uslugi"}
                   />
-                </Nav.Link>
-                <Nav.Link className="header-nav__menu-text" href="#">
+                </Nav>
+                <Nav className="header-nav__menu-text">
                   <LinkElement
                     LinkColor={"blackLinkColor"}
                     LinkPath={"/katalog"}
                     LinkText={"Katalog"}
                   />
-                </Nav.Link>
-                <Nav.Link className="header-nav__menu-text" href="#">
+                </Nav>
+                <Nav className="header-nav__menu-text">
                   <LinkElement
                     LinkColor={"blackLinkColor"}
                     LinkPath={"/contact"}
                     LinkText={"Kontakt"}
                   />
-                </Nav.Link>
+                </Nav>
               </Nav>
             </Navbar.Collapse>
           </Container>

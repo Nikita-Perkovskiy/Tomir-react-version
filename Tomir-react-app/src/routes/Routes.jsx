@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from "../pages/MainPage/MainPage";
-import KatalogPage from "../pages/KatalogPage/KatalogPage";
+import CatalogPage from "../pages/CatalogPage/CatalogPage";
 import ContactPage from "../pages/ContactPage/ContactPage";
 import ServicePage from "../pages/ServicePage/ServicePage";
 
@@ -10,7 +10,7 @@ const AppRouter = () => {
       <Router>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/katalog" element={<KatalogPage />} />
+          <Route path="/katalog" element={<CatalogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/services" element={<ServicePage />} />
         </Routes>
