@@ -1,0 +1,7 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.kataloPage__text {
+  @include baize-text-slider;
+  text-align: left;
+}

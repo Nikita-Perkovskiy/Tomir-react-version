@@ -1,0 +1,85 @@
+@mixin main-button {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  display: inline-block;
+  max-width: 294px;
+  width: 100vw;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $base-gold;
+}
+
+@mixin main-button-1000px {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  display: inline-block;
+  max-width: 204px;
+  width: 100vw;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  max-height: 40px;
+  background-color: $base-gold;
+}
+
+@mixin main-button-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $base-white;
+}
+
+@mixin main-button-text-1000px {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: $base-white;
+}
+
+@mixin main-button-text-790px {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: $base-white;
+}
+
+@mixin baize-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 61px;
+  color: $base-black;
+  text-transform: uppercase;
+}
+
+@mixin baize-titele-fon-text {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  color: $base-white;
+}
+
+@mixin baize-text-content {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $base-black;
+}
+
+@mixin baize-button-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  transition: 0.7s;
+  cursor: pointer;
+  color: $base-white;
+}
+
+@mixin baize-text-slider {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $base-black;
+}

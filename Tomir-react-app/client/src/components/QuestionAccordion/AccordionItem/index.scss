@@ -1,0 +1,24 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.questionBlock__title {
+  @include baize-text-content;
+  max-width: 800px;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: left;
+}
+
+.questionBlock__numeration {
+  @include baize-text-content;
+  font-size: 50px;
+  font-weight: 400;
+  color: $base-gold;
+  padding-right: 20px;
+}
+
+.questionBlock__content {
+  @include baize-text-content;
+  padding: 2%;
+  border: 2px solid $base-gold;
+}

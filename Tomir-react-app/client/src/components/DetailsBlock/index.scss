@@ -1,0 +1,47 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.textList__circule {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: $base-gold;
+}
+
+.textList__text {
+  @include baize-text-content;
+  text-align: left;
+  span {
+    font-weight: 600;
+  }
+}
+
+.textList__text-content {
+  @include baize-text-content;
+  text-align: center;
+}
+
+.textList__text-title1 {
+  @include baize-titele-fon-text;
+  font-weight: 800;
+  color: $base-red;
+}
+
+.textList__text-title2 {
+  @include baize-titele-fon-text;
+  font-weight: 600;
+  color: $base-black;
+}
+
+.textList__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textList-button {
+  @include baize-button-text;
+  background-color: $base-gold;
+  padding: 10px;
+  max-width: 200px;
+}

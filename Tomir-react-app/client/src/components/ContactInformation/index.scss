@@ -1,0 +1,44 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.contactInformation__mail {
+  @include baize-title;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.7s;
+  padding: 3%;
+}
+
+.contactInformation__mail:hover {
+  color: $base-white;
+  background-color: $base-gold;
+}
+
+.contactInformation__name {
+  @include baize-titele-fon-text;
+  color: $base-black;
+  text-align: right;
+  padding: 3%;
+}
+
+.contactInformation__number {
+  @include baize-text-content;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.7s;
+  padding: 3%;
+}
+
+.contactInformation__number:hover {
+  color: $base-white;
+  background-color: $base-gold;
+}
+
+.contactInformation__content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,21 @@
+@import "/src/styles/vars.scss";
+@import "/src/styles/mixin.scss";
+
+.serviceBlock__img {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.serviceBlock__text {
+  @include baize-text-content;
+}
+
+.serviceBlock__text-right {
+  text-align: right;
+}
+
+.serviceBlock__text-left {
+  text-align: left;
+}
