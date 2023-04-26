@@ -1,7 +1,6 @@
 const { MongoClient } = require("mongodb");
 
-const URL =
-  "mongodb+srv://Nikita_Perkovskiy_Admin:ZEADgOHe3JuZZqTE@cluster0.mxrdjdj.mongodb.net/?retryWrites=true&w=majority";
+const URL = "mongodb://127.0.0.1:27017";
 
 let dbConnection;
 
