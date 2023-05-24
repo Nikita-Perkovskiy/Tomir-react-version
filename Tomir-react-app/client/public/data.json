@@ -1,0 +1,80 @@
+[
+  {
+    "type": {
+      "id": "3456",
+      "title": "Podnośniki nożycowe elektryczne"
+    },
+    "cards": [
+      {
+        "id": "3458",
+        "picture": "./img/Podnosnik-nozycowy-elektryczny-Genie-GS-2032(1).jpg",
+        "alt": "Genie_GS_1932",
+        "model": "Genie GS 1932",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3457",
+        "picture": "./img/Podnosnik-nozycowy-elektryczny-Genie-GS-2032_(3).jpg",
+        "alt": "Genie_GS_2032",
+        "model": "Genie GS 1932",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3459",
+        "picture": "./img/Podnośnik_nożycowy_GENIE_GS2646_akumulatorowy_1.jpg",
+        "alt": "GENIE_GS_2646",
+        "model": "Genie GS 1932",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3460",
+        "picture": "./img/Podnośnik_nożycowy_GENIE_GS3246_akumulatorowy_1.jpg",
+        "alt": "GENIE_GS_3246",
+        "model": "Genie GS 1932",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3461",
+        "picture": "./img/GS4047_3.jpg",
+        "alt": "GENIE_GS_4047",
+        "model": "Genie GS 1932",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3462",
+        "picture": "./img/Podnośnik_nożycowy_GENIE_GS3246_akumulatorowy_1.jpg",
+        "alt": "GENIE_GS_3246",
+        "model": "Genie GS 1932",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3463",
+        "picture": "./img/GS4047_3.jpg",
+        "alt": "GENIE_GS_4047",
+        "model": "GENIE GS 4047",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig :350 kg<",
+        "working_height": "wys. rob. : 13,93m",
+        "weight": "Waga: 3221 kg"
+      }
+    ]
+  }
+]

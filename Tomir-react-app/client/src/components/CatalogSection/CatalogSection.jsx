@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import "./index.scss";
 import CatalogCard from "../LayoutElements/CatalogCard/CatalogCard";
 import SectionTitle from "../LayoutElements/SectionTitle/SectionTitle";
 import PropTypes from "prop-types";
+import getData from "../../config/API";
 
 const cards = [
   <CatalogCard />,
@@ -20,6 +21,15 @@ const cards = [
 
 const CatalogSection = ({ catalogTile, catalogTitlePosition }) => {
   const [showAllCards, setShowAllCards] = useState(false);
+  const [dataCards, setDataCards] = useState([]);
+
+  useEffect(() => {
+    getData().then((products) => {
+      setDataCards(products);
+    });
+  }, []);
+
+  console.log("dataCards", dataCards);
 
   const toggleShowAllCards = () => {
     setShowAllCards(!showAllCards);
@@ -27,14 +37,37 @@ const CatalogSection = ({ catalogTile, catalogTitlePosition }) => {
 
   return (
     <Container>
-      <SectionTitle
+      {dataCards.map((el) => (
+        <>
+          <SectionTitle
+            sectionTitleContent={el.type.title}
+            sectionTitlePosition={catalogTitlePosition}
+          />
+          <Container className="d-flex justify-content-start align-items-center flex-wrap">
+            {el.cards.slice(0, 4).map((card) => (
+              <div className="p-2 mb-5" key={card.id}>
+                <CatalogCard
+                  picture={card.picture}
+                  alt={card.alt}
+                  model={card.model}
+                  drive_unit={card.drive_unit}
+                  working_height={card.working_height}
+                  weight={card.weight}
+                  carrying={card.carrying}
+                />
+              </div>
+            ))}
+          </Container>
+        </>
+      ))}
+      {/* <SectionTitle
         sectionTitleContent={catalogTile}
         sectionTitlePosition={catalogTitlePosition}
       />
       <Container className="d-flex justify-content-start align-items-center flex-wrap">
         {cards.slice(0, 4).map((item, index) => (
           <div className="p-2 mb-5">
-            <CatalogCard key={index} />
+            <CatalogCard />
           </div>
         ))}
       </Container>
@@ -52,7 +85,7 @@ const CatalogSection = ({ catalogTile, catalogTitlePosition }) => {
         onClick={toggleShowAllCards}
       >
         {showAllCards ? "mniej" : "więcej"}
-      </Container>
+      </Container> */}
     </Container>
   );
 };
