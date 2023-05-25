@@ -13,7 +13,7 @@ import AdminPage from "../components/LayoutElements/AdminPage/AdminPage";
 const AppRouter = () => {
   return (
     <>
-      <HashRouter>
+      
         <Router>
           <Routes>
             <Route path="/" element={<MainPage />} />
@@ -23,7 +23,7 @@ const AppRouter = () => {
             <Route path="/admin" element={<AdminPage />} />
           </Routes>
         </Router>
-      </HashRouter>
+      
     </>
   );
 };
