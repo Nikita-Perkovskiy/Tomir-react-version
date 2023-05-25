@@ -1,5 +1,5 @@
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   HashRouter,
@@ -13,17 +13,15 @@ import AdminPage from "../components/LayoutElements/AdminPage/AdminPage";
 const AppRouter = () => {
   return (
     <>
-      <HashRouter>
-        <Router>
-          <Routes>
-            <Route path="/" element={<MainPage />} />
-            <Route path="/katalog" element={<CatalogPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/services" element={<ServicePage />} />
-            <Route path="/admin" element={<AdminPage />} />
-          </Routes>
-        </Router>
-      </HashRouter>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/katalog" element={<CatalogPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/services" element={<ServicePage />} />
+          <Route path="/admin" element={<AdminPage />} />
+        </Routes>
+      </Router>
     </>
   );
 };
