@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  HashRouter,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from "../pages/MainPage/MainPage";
 import CatalogPage from "../pages/CatalogPage/CatalogPage";
 import ContactPage from "../pages/ContactPage/ContactPage";
