@@ -1,0 +1,304 @@
+[
+  {
+    "type": {
+      "id": "3456",
+      "title": "Podnośniki nożycowe elektryczne"
+    },
+    "cards": [
+      {
+        "id": "3458",
+        "picture": "./img/Podnosnik-nozycowy-elektryczny-Genie-GS-2032(1).jpg",
+        "alt": "Genie_GS_1932",
+        "model": "Genie GS 1932",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3457",
+        "picture": "./img/Podnosnik-nozycowy-elektryczny-Genie-GS-2032_(3).jpg",
+        "alt": "Genie_GS_2032",
+        "model": "Genie GS 2032",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 363 kg",
+        "working_height": "wys. rob. : 8,10m",
+        "weight": "Waga: 1830 kg"
+      },
+      {
+        "id": "3459",
+        "picture": "./img/Podnośnik_nożycowy_GENIE_GS2646_akumulatorowy_1.jpg",
+        "alt": "GENIE_GS_2646",
+        "model": "GENIE GS 2646",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 454 kg",
+        "working_height": "wys. rob. : 9,92m",
+        "weight": "Waga: 2447 kg"
+      },
+      {
+        "id": "3460",
+        "picture": "./img/Podnośnik_nożycowy_GENIE_GS3246_akumulatorowy_1.jpg",
+        "alt": "GENIE_GS_3246",
+        "model": "GENIE GS 3246",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 318 kg",
+        "working_height": "wys. rob. : 11,75m",
+        "weight": "Waga: 2781 kg"
+      },
+      {
+        "id": "3461",
+        "picture": "./img/GS4047_3.jpg",
+        "alt": "GENIE_GS_4047",
+        "model": "GENIE GS 4047",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 350 kg",
+        "working_height": "wys. rob. : 13,93m",
+        "weight": "Waga: 3221 kg"
+      },
+      {
+        "id": "3462",
+        "picture": "./img/Podnosnik-nozycowy-spalinowy-Genie-GS-3268-RT-2.jpg",
+        "alt": "GENIE_GS_3246",
+        "model": "GENIE GS 3268 RT",
+        "drive_unit": "Napęd: 4×4",
+        "carrying": "Udźwig: 454 kg",
+        "working_height": "wys. rob. : 11,75 m",
+        "weight": "Waga: 4254 kg"
+      },
+      {
+        "id": "3463",
+        "picture": "./img/Podnośnik_nożycowy_terenowy_diesel_4x4_Genie_GS-3369_RT_(2).jpg",
+        "alt": "GENIE_GS_3369_RT",
+        "model": "GENIE GS 3369 RT",
+        "drive_unit": "Napęd: 4×4",
+        "carrying": "Udźwig: 454 kg",
+        "working_height": "wys. rob. : 11,96 m",
+        "weight": "Waga: 3882 kg"
+      }
+    ]
+  },
+  {
+    "type": {
+      "id": "3464",
+      "title": "Podnośniki teleskopowo-przegubowe elektryczne:"
+    },
+    "cards": [
+      {
+        "id": "3465",
+        "picture": "./img/Podnosnik_przegubowy_elektryczny_Genie_Z_3020N_1.jpg",
+        "alt": "GENIE_Z30_20N",
+        "model": "GENIE Z30/20N",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 11,14m",
+        "weight": "Waga: 6428 kg"
+      },
+      {
+        "id": "3466",
+        "picture": "./img/Podnosnik_przegubowy_elektryczny_Genie_Z_3422N_2.jpg",
+        "alt": "GENIE_Z34_22N",
+        "model": "GENIE Z34/22N",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig 227 kg",
+        "working_height": "wys. rob. : 12,52m",
+        "weight": "Waga: 5179 kg"
+      },
+      {
+        "id": "3467",
+        "picture": "./img/Podnosnik_przegubowy_elektryczny_Genie_Z_4525_JDC_(15).jpg",
+        "alt": "GENIE_Z45/25_DC",
+        "model": "GENIE Z45/25 DC",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig 227 kg",
+        "working_height": "wys. rob. : 15,87m<",
+        "weight": "Waga: 6777 kg<"
+      },
+      {
+        "id": "3468",
+        "picture": "./img/Podnosnik_przegubowy_spalinowy_4x4_Genie_Z_4525_RT_2.jpg",
+        "alt": "GENIE_Z45/25_JRT",
+        "model": "GENIE Z45/25 JRT",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 16,07m",
+        "weight": "Waga: 6924 kg"
+      },
+      {
+        "id": "3469",
+        "picture": "./img/Podnosnik_przegubowy_spalinowy_Genie_Z_5130_JRT_1.jpg",
+        "alt": "GENIE_Z5130_JRT",
+        "model": "GENIE Z51/30 JRT",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 17,62m",
+        "weight": "Waga: 7212 kg"
+      },
+      {
+        "id": "3470",
+        "picture": "./img/Podnosnik_przegubowy_spalinowy_Genie_Z_6034_2(1).jpg",
+        "alt": "GENIE_Z6034",
+        "model": "GENIE Z60/34",
+        "drive_unit": "Napęd: 4×4",
+        "carrying": "Udźwig: 454 kg",
+        "working_height": "wys. rob. : 20,39m",
+        "weight": "Waga: 11231 kg"
+      },
+      {
+        "id": "3471",
+        "picture": "./img/Podnosnik_przegubowy_spalinowy_Genie_Z_8060_4.jpg",
+        "alt": "GENIE_Z80/60",
+        "model": "GENIE Z80/60",
+        "drive_unit": "Napęd: 4×4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 25,60m",
+        "weight": "Waga: 17010 kg"
+      },
+      {
+        "id": "3472",
+        "picture": "./img/Podnosnik_przegubowy_spalinowy_Genie_Z_13570_1.jpg",
+        "alt": "GENIE_Z13570",
+        "model": "GENIE Z135/70",
+        "drive_unit": "Napęd: 4×4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 43,15m",
+        "weight": "Waga: 20693 kg"
+      }
+    ]
+  },
+  {
+    "type": {
+      "id": "3473",
+      "title": "Podnośniki teleskopowe spalinowe :"
+    },
+    "cards": [
+      {
+        "id": "3474",
+        "picture": "./img/Podnosnik_nozycowy_terenowy_diesel_4x4_Genie_S_45_2.jpg",
+        "alt": "GENIE_S45",
+        "model": "GENIE S45",
+        "drive_unit": "Napęd elektryczny",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 7,79m",
+        "weight": "Waga: 1503 kg"
+      },
+      {
+        "id": "3475",
+        "picture": "./img/Podnosnik-nozycowy-elektryczny-Genie-GS-2032_(3).jpg",
+        "alt": "Genie_GS_2032",
+        "model": "Genie GS 2032",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 15,72m",
+        "weight": "Waga: 6709 kg"
+      },
+      {
+        "id": "3476",
+        "picture": "./img/Podnosnik_nozycowy_terenowy_diesel_4x4_Genie_S_65_2.jpg",
+        "alt": "GENIE_S65",
+        "model": "GENIE S65",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 21,80m",
+        "weight": "Waga: 10445 kg"
+      },
+      {
+        "id": "3477",
+        "picture": "./img/Podnosnik_nozycowy_terenowy_diesel_4x4_Genie_S_85_4.jpg",
+        "alt": "GENIE_S85",
+        "model": "GENIE S85",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 27,90m",
+        "weight": "Waga: 11231 kg"
+      },
+      {
+        "id": "3478",
+        "picture": "./img/Podnosnik_nozycowy_terenowy_diesel_4x4_Genie_S_105_3.jpg",
+        "alt": "GENIE_S105",
+        "model": "GENIE S105",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 34,00m",
+        "weight": "Waga: 18144 kg"
+      },
+      {
+        "id": "3479",
+        "picture": "./img/Podnosnik_nozycowy_terenowy_diesel_4x4_Genie_S_125_2.jpg",
+        "alt": "GENIE_S125",
+        "model": "GENIE S125",
+        "drive_unit": "Napęd: 4×4",
+        "carrying": "Udźwig: 227 kg",
+        "working_height": "wys. rob. : 40,15m",
+        "weight": "Waga: 20248 kg"
+      }
+    ]
+  },
+  {
+    "type": {
+      "id": "3480",
+      "title": "Ładowarki teleskopowe :"
+    },
+    "cards": [
+      {
+        "id": "3481",
+        "picture": "./img/imgonline-com-ua-Resize-TSKRuskhxEc.jpg",
+        "alt": "MANITOU_MT_730_H",
+        "model": "MANITOU MT 730 H",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: max. 3000kg",
+        "working_height": "wys. rob. : max. 6,90m",
+        "weight": "Wysięg: max. 4,0m"
+      },
+      {
+        "id": "3482",
+        "picture": "./img/imgonline-com-ua-Resize-9ciujLqUYTHSC.jpg",
+        "alt": "MANITOU_MT_1440",
+        "model": "MANITOU_MT_1440",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: max. 4000kg",
+        "working_height": "wys. rob. : max. 13,53m",
+        "weight": "Wysięg: max. 9,46m"
+      },
+      {
+        "id": "3483",
+        "picture": "./img/Ladowarka_teleskopowa_terenowa_Manitou_MT_1840_2(3).jpg",
+        "alt": "MANITOU_MT_1840",
+        "model": "MANITOU MT 1840",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: max. 4000kg",
+        "working_height": "wys. rob. : max. 17,55m",
+        "weight": "Wysięg: max. 13,08m"
+      },
+      {
+        "id": "3484",
+        "picture": "../img/imgonline-com-ua-Resize-Bwha9uwXLrpv4n8g.jpg",
+        "alt": "JCB_540-170",
+        "model": "JCB 540-170",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: max. 4000kg",
+        "working_height": "wys. rob. : max. 17,0m",
+        "weight": "Wysięg: max. 13,08m"
+      },
+      {
+        "id": "3485",
+        "picture": "./img/Ladowarka_teleskopowa_terenowa_Manitou_MRT_2150_2.jpg",
+        "alt": "MANITOU_MRT_2150",
+        "model": "MANITOU MRT 2150",
+        "drive_unit": "Napęd: 4x4",
+        "carrying": "Udźwig: max. 5000kg",
+        "working_height": "wys. rob. : max. 20,90m",
+        "weight": "Wysięg: max. 17,90m"
+      },
+      {
+        "id": "3486",
+        "picture": "./img/Ladowarka_teleskopowa_terenowa_Manitou_MRT_2550_1.jpg",
+        "alt": "MANITOU_MRT_2550",
+        "model": "MANITOU MRT 2550",
+        "drive_unit": "Napęd: 4×4",
+        "carrying": "Udźwig: max. 5000kg",
+        "working_height": "wys. rob. : max. 24,70m",
+        "weight": "Wysięg: max. 21,40m"
+      }
+    ]
+  }
+]
