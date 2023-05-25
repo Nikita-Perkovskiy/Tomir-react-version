@@ -22,13 +22,15 @@ const CatalogCard = ({
           />
         </div>
         <Card.Body>
-          <Card.Text className="catalogCard__text pt-2">{model}</Card.Text>
-          <Card.Text className="catalogCard__text pt-2">{drive_unit}</Card.Text>
-          <Card.Text className="catalogCard__text pt-2">
+          <Card.Text className="catalogCard__text catalogCard__title  pt-3">
+            {model}
+          </Card.Text>
+          <Card.Text className="catalogCard__text pt-3">{drive_unit}</Card.Text>
+          <Card.Text className="catalogCard__text pt-3">
             {working_height}
           </Card.Text>
-          <Card.Text className="catalogCard__text pt-2">{carrying}</Card.Text>
-          <Card.Text className="catalogCard__text pt-2">{weight}</Card.Text>
+          <Card.Text className="catalogCard__text pt-3">{carrying}</Card.Text>
+          <Card.Text className="catalogCard__text pt-3">{weight}</Card.Text>
         </Card.Body>
       </Card>
     </>

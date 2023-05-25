@@ -6,15 +6,39 @@
   text-align: left;
 }
 
+.catalogCard__title {
+  color: $base-gold;
+}
+
 .catalogCard__image-wrapper {
-  // overflow: hidden;
-  // height: 250px;
-  // width: 286px;
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  // width: 100%;
 }
 .catalogCard__image {
-  // height: 100%;
-  // width: 100%;
-  height: 250px;
-  width: 286px;
-  object-fit: contain;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.catalog-block__text-title {
+  position: relative;
+  @include baize-text-content;
+  max-width: 900px;
+}
+
+.catalog-block__text-title::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  background-color: $base-gold;
+  border-radius: 50%;
+  top: 50%;
+  margin-top: -15px;
+  left: 0px;
 }
