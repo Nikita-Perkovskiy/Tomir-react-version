@@ -44,13 +44,6 @@ const Footer = () => {
                   />
                 </Col>
               </Row>
-              <Row className="text-center m-3">
-                <LinkElement
-                  LinkColor={"whiteLinkColor"}
-                  LinkPath={"/admin"}
-                  LinkText={"Admin"}
-                />
-              </Row>
             </Col>
             <Col xs={12} xl={6}>
               <Row className="mt-3">
