@@ -5,34 +5,40 @@ import CatalogCard from "../LayoutElements/CatalogCard/CatalogCard";
 import SectionTitle from "../LayoutElements/SectionTitle/SectionTitle";
 import PropTypes from "prop-types";
 import getData from "../../config/API";
+import LoaderComponent from "../LoaderComponent/LoaderComponent";
 
-const CatalogSection = ({ catalogTile, catalogTitlePosition }) => {
+const CatalogSection = ({ catalogTitlePosition }) => {
   const [showAllCards, setShowAllCards] = useState(false);
   const [dataCards, setDataCards] = useState([]);
+  const [loader, setLoader] = useState(true);
 
   useEffect(() => {
+    setLoader(true);
     getData().then((products) => {
       setDataCards(products);
+      setLoader(false);
     });
   }, []);
-
-  console.log("dataCards", dataCards);
 
   const toggleShowAllCards = () => {
     setShowAllCards(!showAllCards);
   };
 
-  return (
+  return loader ? (
+    <>
+      <LoaderComponent />
+    </>
+  ) : (
     <Container>
       {dataCards.map((el) => (
-        <>
+        <div key={el.type.id}>
           <SectionTitle
             sectionTitleContent={el.type.title}
             sectionTitlePosition={catalogTitlePosition}
           />
           <Container className="d-flex justify-content-start align-items-center flex-wrap">
             {el.cards.slice(0, 4).map((card) => (
-              <div className="p-2 mb-5">
+              <div key={card.id} className="p-2 mb-5">
                 <CatalogCard
                   key={card.id}
                   picture={card.picture}
@@ -49,7 +55,7 @@ const CatalogSection = ({ catalogTile, catalogTitlePosition }) => {
           <Container className="d-flex justify-content-start align-items-center flex-wrap">
             {showAllCards &&
               el.cards.slice(4).map((card) => (
-                <div className="p-2 mb-5">
+                <div key={card.id} className="p-2 mb-5">
                   <CatalogCard
                     key={card.index}
                     picture={card.picture}
@@ -69,7 +75,7 @@ const CatalogSection = ({ catalogTile, catalogTitlePosition }) => {
           >
             {showAllCards ? "mniej" : "więcej"}
           </Container>
-        </>
+        </div>
       ))}
       <Container className="mt-5">
         <SectionTitle
@@ -91,7 +97,6 @@ const CatalogSection = ({ catalogTile, catalogTitlePosition }) => {
 };
 
 CatalogSection.propTypes = {
-  catalogTile: PropTypes.string.isRequired,
   catalogTitlePosition: PropTypes.string.isRequired,
 };
 

@@ -8,10 +8,7 @@ const CatalogPage = () => {
     <>
       <Header />
       <section className="catalogSection-wrapper">
-        <CatalogSection
-          catalogTile={"Podnośniki nożycowe elektryczne:"}
-          catalogTitlePosition={"left"}
-        />
+        <CatalogSection catalogTitlePosition={"left"} />
       </section>
       <Footer />
     </>
