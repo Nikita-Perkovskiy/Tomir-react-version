@@ -25,7 +25,7 @@ const ContactMap = () => {
       const marker = L.marker([51.36923, 19.35721], { icon: markerIcon }).addTo(
         map
       );
-      marker.bindPopup("Tomir sp. z o.o").openPopup();
+      marker.bindPopup("Tomir").openPopup();
     }
   }, [mapRef]);
 

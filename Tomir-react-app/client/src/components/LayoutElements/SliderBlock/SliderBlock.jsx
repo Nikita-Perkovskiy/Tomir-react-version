@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SlideCard from "./SlideCard/SlideCard";
 import slideCardImage1 from "./images/imgonline-com-ua-Resize-8iJblKN2GZzZomLN.jpg";
-import slideCardImage2 from "./images/imgonline-com-ua-Resize-9eqNJLTRTBEK8eB.jpg";
+import slideCardImage2 from "./images/20230515_162150.jpg";
 import slideCardImage3 from "./images/imgonline-com-ua-Resize-NBixGGdL6h.jpg";
 import slideCardImage4 from "./images/imgonline-com-ua-Resize-ZGJ97rA5LAGvHN.jpg";
 import slideCardImage5 from "./images/imgonline-com-ua-Resize-ZPsEIIomgGXBOIQ.jpg";

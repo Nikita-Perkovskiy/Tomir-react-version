@@ -10,7 +10,7 @@ const ContactInformation = () => {
             className="contactInformation__mail"
             href="mailto:tomir.szczercow@gmail.com"
           >
-            szczercow@gmail.com
+            tomir.szczercow@gmail.com
           </a>
         </Container>
         <Container className="mt-5 mb-5">
